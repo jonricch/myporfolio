@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@900&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@300;700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  
+}
+
+
+
+body {
+    overflow-x: hidden  ;
+
+}
+
+
+
+* {
+    font-family:'Montserrat', sans-serif;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+
+p {
+    color: black;
+}
+
+ /* NAVBAR */
+
+ .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .logo {
+    display: block;
+   transform: scale(1.3);
+   margin-left: 30px;
+   margin-top: -10px;
+ }
+
+
+
+ .cta-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ .button-w {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-color: red;
+    height: 30px;
+    border-radius: 28px;
+    width: 130px;
+    justify-content: center;
+    background-color: #f5f5f5;
+    font-weight: 800;
+    
+}
+
+.button-c {
+    margin: 5px 20px 0px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 30px ;
+    border-radius: 28px;
+    width: 130px;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-color: red;
+    font-weight: 800;
+    
+}   
+
+
+.button-w:hover {
+    color: #f5f5f5;
+    background-color: red;
+    transform: scale(1.2);
+    font-weight: 800;
+}
+
+.button-c:hover {
+    color: #f5f5f5; 
+    background-color: red;
+    transform: scale(1.2);
+    font-weight: 800;
+}
+
+/* HERO */
+
+.hero-shape {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    transform: scale(1.2);
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero-h1 {
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: 80px;    
+}
+
+
+
+/* About Me */
+
+main {
+    transform: translateY(1%);
+}
+
+.ew-c {
+    padding-left: 180px;
+    line-height: 30px;
+}
+
+.about-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-row: 1fr;
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 5%;
+}
+
+.shape1 {
+    transform: scale(0.5);
+
+}
+
+.shape-c {
+    transform: translate(-200px,-50px );
+    height: 300px;
+}
+
+.hi {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pp {
+    transform: scale(0.5) translateX(-5%);
+    border: solid;
+    border-radius: 50%;
+    border-color: red;
+}
+
+
+
+.about-p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.name-c {
+    font-family:'Raleway', sans-serif;
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+/* EDUCATION & WORK EXPERIENCE */
+
+.ew-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.education {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+.workexp {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+.education-c {
+    padding-left: 20px;
+}
+
+/* SKILLS */
+
+.skills-c {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.skills {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+}
+
+.grid-s {
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.wd {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+
+/* SPOKEN LANGUAGES */
+
+
+.lang-c {
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+.s-l {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+.lang {
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* HOBBIES */
+
+
+.hobbies-c {
+    margin-top: 100px;
+}
+
+.h-heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+.hobbies {
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.i1 {
+    font-size: 30px;
+}
+
+/* REFERENCES */
+
+.references-c {
+    margin: 50px 0px 100px 0px;
+    padding: 0px 100px 0px 50px;
+
+}
+.r-h {
+    margin-top: 150px ;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+.references {
+   display: flex;
+   flex-direction: row;
+    height: 200px;
+    width: 100%;
+}
+
+.gian-p {
+    height: 100px;
+    padding-right: 20px;
+}
+
+.mark-p {
+    height: 100px;
+    padding-right: 20px;
+}
+
+.r-t2 {
+    text-align: justify;
+    width: 90%;
+}
+
+/* CONTACT ME */
+ 
+
+.contactme-c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+}
+
+.social-c  {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+.form {
+    transform: translateX(40%);
+}
+
+
+label {
+    display: block;
+    width: 80%;
+    font-weight: 600;
+}
+
+input, textarea {
+    display: block;
+    width: 50%;
+    border-color: red;
+    border-radius: 15px;
+    line-height: 30px;
+    border-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+#sumbtn {
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 28px;
+    border-style: solid;
+    border-color: red; 
+    font-weight: bold;
+}
+
+#sumbtn:hover {
+    background-color: red;
+    color: #f5f5f5;
+    transform: scale(1.1);
+}
+
+.followme {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.socials-b {
+    margin-left: 30px;
+
+}
+
+.contactme-t {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.contact-me {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.c-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.social-c {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.fa-brands {
+    margin-left: 20px;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+}
+
+.contact-info {
+    color: black;
+    padding: 0px 50px 0px 50px;
+}
+
+.contactme {
+    margin: 0px;
+}
+
+
+/* CERTIFICATES */
+
+.cert-h {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margiN: 10% 10% ;
+  
+}
+
+.certificates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+/* 1st line */
+
+.cert {
+    transform: translateX(-10px) scale(0.7);
+    cursor: pointer;
+}
+
+.cert:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* 2nd line */
+
+.cert-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* 3rd line */
+
+.certificate-2 {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* 4th line */
+
+#cert1 {
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* MEDALS */
+
+.medals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10%;
+}
+
+.medal {
+    cursor: pointer;
+}
+
+.medal:hover {
+    transform: scale(1.2) 
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUIRIES */
+
+
+/** TABLET **/
+
+@media screen and (max-width: 768px) {
+
+    
+    html {
+        overflow-x: hidden;
+    }
+
+    main {
+        transform: translateY(-210px);
+    }
+
+/* NAVBAR - MEDIA QUIRIES */
+
+
+
+
+    .logo-c {
+        transform: scale(1.0);
+    }
+
+    .logo {
+        transform: translate(-20px, -20px);
+    }
+
+    
+    .button-w {
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .button-c {
+        font-size: 10px;
+        width: 105px;
+    }
+
+    .cta-container {
+        transform: translateY(-24px);
+        
+
+    }
+
+/* HERO -MEDIA QUIRIES */
+
+
+.hero-shape {
+        transform: scale(1);
+        margin-left: 260px;
+       
+}
+
+.hero-h1 {
+    font-size: 60px ;
+    transform: translateX(-3%);
+    
+}
+
+
+
+
+/* ABOUT_ME - MEDIA QURIES */
+
+main {
+    transform: translateY(-5px);
+}
+
+    .shape1 {  
+        display: none;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    .pp {
+        transform: scale(0.4);
+
+
+    }
+       
+    .profilephoto {
+        transform: translate(4%, 60px)
+    }
+
+   .about {
+        transform: translateY(-300%);
+   }
+
+   .about-t {
+        transform: translateY(-80%);
+   }
+
+
+
+
+
+/* E & W - MEDIA QUIRIES */
+
+    .ew-c {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        transform: translate(-100px);
+        line-height: 30px;
+  
+    }
+
+    .education {
+      text-align: center;
+      height: 50px;
+    }
+
+    .workexp {
+        text-align: center;
+        line-height: 100px;
+    }
+
+
+/* SKILLS - MEDIA QUIRIES */
+
+    .grid-s {
+        padding-left: 100px;
+    }
+
+/* SPOKEN LANG - MEDIA QUIRIES */
+    
+    .lang {
+        padding-left: 100px;
+    }
+
+/* SPOKEN LANG - MEDIA QUIRIES */
+
+    .hobbies {
+        padding-left: 100px;
+    }
+
+/* REFERENCES  - MEDIA QUIRIES */
+
+    .references {
+        display: block;
+        padding-bottom: 300px;
+    }
+
+    .r-t1 {
+        padding-bottom: 20px;
+    }
+
+    .gian-p {
+       transform: translateX(240%);
+    }
+
+    .mark-p {
+        transform: translateX(240%);
+    }
+
+    
+/* CONTACTME */
+
+    .form {
+        transform: translateX(200px);
+        width: 100%;
+        margin : 30px 0px 50px 0px;
+    }
+
+    .followme {
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .contactme-c {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+    }
+
+    .contactme-t{
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+    .contact-me {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .socials-b {
+        text-align: center;
+        font-size: 50px;
+
+    }
+    .socials-b {
+        font-size: 20px;
+        word-spacing: 20px;
+        margin-left: 10px;
+}
+
+/* CERTIFICATES */
+
+.certificates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEDALS */
+
+.medal {
+    transform: scale(0.7);
+
+}
+
+.medals {
+    margin-right: 80px;
+}
+
+}
+    
+/* MOBILE */
+
+@media screen and (max-width: 425px) {
+
+main {
+    transform: translateY(70px);
+}
+    
+/* NAVBAR */
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.logo {
+   transform: translateX(70px);
+}
+
+
+.cta-container {
+    transform: translateX(100px);
+    display: block;    
+}
+
+.button-c {
+    transform: translate(-20px);
+    font-size: 14px;
+    width: 50%;
+}
+
+.button-w {
+    font-size: 14px;
+    width: 50%;
+    height: 30px;
+}
+/* HERO */
+
+ .hero-h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+ .hero-shape {
+    display: none;
+} 
+
+
+
+.shape {
+    display: none;
+}
+
+/* ABOUT ME */
+
+.profilephoto {
+    transform: translate(-39%);
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    transform: translate(0%) ;
+}
+
+
+.about-t {
+   transform: translateY(-250px);
+}
+
+.name-c {
+    transform: translateX(10px);
+}
+
+.about-h {
+    font-size: 20px;
+}
+
+/* Educ & Exp */
+
+.ew-c {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    margin-top: -200px;
+    
+}
+ 
+
+
+.education {
+    line-height: 50px;
+    padding-left: 65px;
+}
+
+.workexp {
+    padding-left: 65px;
+}
+h3 {
+    line-height: 50px;
+}
+
+p {
+    line-height: 30px;
+}
+
+li {
+    line-height: 30px;
+}
+
+/* SKIILS */
+
+.grid-s {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 50px;
+}
+
+/* SPOKEN LANGUAGES */
+
+.lang {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-c {
+    transform: translateX(10px);
+}
+
+/* HOBBIES */
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+/* REFERENCES */
+
+
+.references-c {
+    margin-bottom: 700px;
+}
+
+.references {
+    padding-top: 50px;
+}
+
+.gian-p {
+    transform: translateX(110px);
+    display: block;
+}
+
+.mark-p {
+    transform: translateX(110px);
+    display: block;
+}
+
+/* CONTACT ME */
+
+.c-h {
+    padding-top: 100px;
+    margin-left: -8px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactme-t {
+    transform: translateX(-10px);
+    font-size: 50px;
+    width: 100%;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.form {
+    transform: translateX(60px);
+}
+
+input, textarea {
+    width: 65%;
+}
+
+.socials-b {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 50px;
+    transform: translateX(-5px);
+}
+
+.social-c {
+    transform: translateX(-30px);
+}
+
+
+/*CERTIFICATES*/
+
+.cert-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.medals {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+}
+
+
+/** LAPTOP 1440px **/
+
+@media screen and   (min-width:1440px)   {
+
+    .navbar-container {
+        margin-top: 30px;
+    
+    }
+
+
+    .hero-shape {
+        margin-left: 40%;
+    }
+  
+  
+    .cta-container {
+        transform: translateX(-140px);
+    }
+    
+    .button-c {
+        font-size: 17px;
+        width: 140%;
+        height: 40px;
+        transform: translateX(30px);
+    
+    }
+
+
+    .logo-c {
+        transform: scale(1.5);
+    }
+    
+    .logo {
+        transform: translate(30px, 8px);
+    }
+
+    .button-w {
+        font-size: 17px;
+        width: 150%;
+        height: 40px;
+        transform: translateX(-70px);
+       
+    
+    }
+
+
+
+/* HERO */
+
+    .html {
+        overflow-x: hidden;
+    }
+
+
+    .heading {
+        transform: translateX(-38px);
+    }
+
+    .hero-h1 {
+        font-size: 90px;
+    }
+
+/* ABOUT ME */
+    .shape{
+        transform: scale(0.6);
+    }
+
+
+    .shape-c {
+        height: 350px;
+        transform: translateX(-195px)
+        }
+
+    .ew-c {
+        justify-content: space-evenly;
+    }
+
+    .grid-s {
+        padding-left: 300px;
+    }
+
+    .lang {
+        padding-left: 300px;
+    }
+
+    .hobbies {
+        padding-left: 300px;
+    }
+
+
+
+/* REFERENCES */
+
+    .references {
+        display: flex;
+        flex-direction: row  ;
+    }
+
+    .references-c {
+        margin-bottom: 15em;
+     
+    }
+
+    .r-h {
+        padding-bottom: 50px;
+    }
+}
+
+
+
+ 
